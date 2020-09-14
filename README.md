@@ -1,4 +1,3 @@
-### Me learning RL
 This is just a repository for containing my experiments during learning Reinforcement Learning
 
 #### 1) Fundamental concepts:
@@ -30,6 +29,6 @@ By using dynamic programming techniques and the Bellman Backup Operator, loop un
 </ul>
 <br>
 <ul>
-  <li>SARSA</li>: for computing TD target, use Q[next_state, next_action] -> on-policy
-  <li>Q learning</li>: for computing TD target, max(Q[next_state]) -> off-policy
+  <li>SARSA: for computing TD target, use Q[next_state, next_action] -> on-policy　</li>
+  <li>Q learning: for computing TD target, max(Q[next_state]) -> off-policy　</li>
 </ul>
