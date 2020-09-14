@@ -29,6 +29,6 @@ By using dynamic programming techniques and the Bellman Backup Operator, loop un
 </ul>
 <br>
 <ul>
-  <li>SARSA: for computing TD target, use Q[next_state, next_action] -> on-policy　</li>
-  <li>Q learning: for computing TD target, max(Q[next_state]) -> off-policy　</li>
+  <li><strong>SARSA</strong>: for computing TD target, use Q[next_state, next_action] -> on-policy　</li>
+  <li><strong>Q Learning</strong>: for computing TD target, max(Q[next_state]) -> off-policy　</li>
 </ul>
