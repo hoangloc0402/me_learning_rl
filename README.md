@@ -16,7 +16,7 @@ By using dynamic programming techniques and the Bellman Backup Operator, loop un
   
 </ul>
 
-#### 2) Model-free:
+#### 3) Model-free:
 <ul>
   <li> 
     <strong>Monte Carlo</strong>: interact with the env repeatedly to obtain series of [state, action, reward] (aka episodes), update V(s) adter sampling each episode. Require the env to be episodic.
