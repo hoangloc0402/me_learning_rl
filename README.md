@@ -27,5 +27,9 @@ By using dynamic programming techniques and the Bellman Backup Operator, loop un
     </ul>
   </li>
   <li> <strong>Temporal Difference</strong>: Immediately update estimate of V(s) after each [s, a, r, s']. Can also be used in non-episodic or infinite-horizon env. Some bias, lower variance</li>
-  
+</ul>
+<br>
+<ul>
+  <li>SARSA</li>: for computing TD target, use Q[next_state, next_action] -> on-policy
+  <li>Q learning</li>: for computing TD target, max(Q[next_state]) -> off-policy
 </ul>
